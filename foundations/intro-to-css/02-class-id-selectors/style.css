@@ -1,7 +1,7 @@
 /* Add CSS Styling */
 .cool-class {        /* This is for all the odd numbered elements */
  background-color: lightpink;
- font-family: Vedana, DejaVu Sans, sans-serif;
+ font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #my-id {
@@ -16,5 +16,4 @@
 #another-id {
  background-color: lightgreen;   
  font-weight: bold;
- font-size: 24px;
 }
