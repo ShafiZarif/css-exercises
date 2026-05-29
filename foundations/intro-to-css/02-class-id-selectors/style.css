@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.cool-class {        /* This is for all the odd numbered elements */
+ background-color: lightpink;
+ font-family: Vedana, DejaVu Sans, sans-serif;
+}
+
+#my-id {
+ color: blue;   
+ font-size: 36px;
+}
+
+.cooler {
+ font-size: 24px;  
+}
+
+#another-id {
+ background-color: lightgreen;   
+ font-weight: bold;
+ font-size: 24px;
+}
