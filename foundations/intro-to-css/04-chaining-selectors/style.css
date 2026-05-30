@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+/* style.css */
+
+/* for the first image */
+
+.avatar.proportioned {
+    width: 300px;
+}
+
+/* for the second image */
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
