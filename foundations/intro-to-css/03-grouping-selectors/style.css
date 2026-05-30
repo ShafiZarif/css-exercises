@@ -1,1 +1,23 @@
-/* Add CSS Styling */
+/* style.css */
+
+
+/* Add common styles for both buttons */
+
+.both {                        
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+/* Add specific styles for the blackbox button */
+
+#blackbox {
+    background-color: black;
+    color: white;
+}
+
+/* Add specific styles for the whitebox button */
+
+#whitebox {
+    background-color: yellow;
+    color: black;
+}
