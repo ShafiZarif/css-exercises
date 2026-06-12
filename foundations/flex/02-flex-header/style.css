@@ -23,3 +23,25 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header {
+  /* this makes the header a flex container */
+  display: flex;
+  /* this makes the items in the header line up in a row */
+  flex-direction: row;
+  /* this centers the items vertically */
+  align-items: center;
+  /* this adds space between the logo and the links */
+  justify-content: space-between;
+}
+
+ul{
+  /* this makes the list of links a flex container */
+  display: flex;
+  /* this adds space between the links */
+  gap: 8px;
+  /* this removes the default margin and padding from the list */
+  margin: 0;
+  /* this removes the default padding from the list */
+  padding: 0;
+}
