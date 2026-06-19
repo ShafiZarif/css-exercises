@@ -24,6 +24,8 @@ a {
   text-decoration: none;
 }
 
+/* Solution */
+
 .header {
   /* this makes the header a flex container */
   display: flex;
