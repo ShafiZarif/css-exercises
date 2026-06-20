@@ -26,20 +26,3 @@ img {
 }
 
 
-body {
-  text-align: center;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-.title {
-  margin-bottom: 32px;
-}
-
-.info {
-  max-width: 200px;
-}
