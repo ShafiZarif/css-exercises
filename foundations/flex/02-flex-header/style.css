@@ -31,3 +31,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
