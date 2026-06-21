@@ -26,3 +26,28 @@ img {
 }
 
 
+.title {
+  text-align: center;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: 48px;
+  margin-right: 48px;
+  gap: 52px;
+}
+
+.items {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
