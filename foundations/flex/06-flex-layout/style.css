@@ -24,3 +24,75 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+ 
+/* Solution */
+
+body {
+  /* this makes the whole page come to a column style, with customisation options */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  /* this removes the line under all our links and also changes their default blue color*/
+  text-decoration: none;
+  color: slategrey
+}
+
+.header {
+  /* this is the customisation for the header */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.header .left-links, .header .right-links {
+  /* this makes the buttons in the header look appropriate */
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 16px;
+}
+
+.header ul {
+  /* this removes the default padding and margin of the <ul> element from the header section */
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  /* this makes the logo, search bar, buttons align in a column and in the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  /* this gives the buttons under the search bar a padding of their own*/
+  padding: 10px;
+}
+
+.footer {
+  /* this makes the footer visible and eye catchy  */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+.footer ul {
+  /* removes the padding and margin from the <ul> element of footer */
+  padding: 0%;
+  margin: 0;
+}
+
+.footer .left-links, .footer .right-links {
+  /* makes the button in footer look appropriate */
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  text-decoration: none;
+  padding: 16px;
+}
+
